@@ -1,0 +1,228 @@
+body {
+    padding-top: 80px;
+    background-color: #fff;
+}
+
+.footer {
+    bottom: 0;
+    width: 100%;
+}
+
+
+.directory {
+    background: #fff;
+    padding-top: 15px;
+    border-top-left-radius: 0.5rem;
+    border-top-right-radius: 0.5rem;
+    border-bottom-left-radius: 0.5rem;
+    border-bottom-right-radius: 0.5rem;
+}
+
+/* Contact Form styling */
+.contact-form button {
+    background: #2b3d8f;
+    color: #fff;
+    font-weight: 600;
+    width: 25%;
+}
+
+.contact-info{
+    text-align: center;
+}
+
+.control-label {
+    text-align: left;
+    color: rgba(0, 0, 0, 0.788);
+}
+.col-md-3{
+    background: #2b3d8f;
+    color: #fff;
+    padding: 4%;
+    border-top-left-radius: 0.5rem;
+    border-bottom-left-radius: 0.5rem;
+}
+
+.col-md-9{
+    background: white;
+    color:rgb(53, 53, 53);
+    padding: 3%;
+    border-top-right-radius: 0.5rem;
+    border-bottom-right-radius: 0.5rem;
+}
+
+/* Index Style */
+.carousel{
+    margin-top: 0rem;
+    margin-bottom: 0rem;
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+}
+
+.carousel-item > img {
+    top: 0;
+    left:0;
+    min-width: 100vw;
+    height: 90vh;
+}
+
+.carousel .carousel-inner {
+    height: 100%;
+}
+
+/* Register Style */
+.register{
+    background: white;
+    padding: 3%;
+    border-top-left-radius: 0.5rem;
+    border-top-right-radius: 0.5rem;
+    border-bottom-left-radius: 0.5rem;
+    border-bottom-right-radius: 0.5rem;
+}
+
+/* About Us */
+.featurette-divider{
+    padding-top: 30px;
+}
+
+/* Directory Style */
+.sidebar {
+    position: fixed;
+    top: 0px;
+    bottom: 0;
+    left: 0;
+    z-index: 100;
+    padding: 0;
+    box-shadow: inset -1px 0 0 rgba(0, 0, 0, .1);
+}
+
+.sidebar-sticky{
+    position: sticky;
+    top: 48px;
+    height: calc(100vh - 50px);
+    padding-top: 1rem;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+.review{
+    padding-left: 15px; 
+    padding-top: 3px;
+}
+
+.search-sec{
+    padding-bottom: 2rem;
+}
+.search-slt{
+    display: block;
+    width: 100%;
+    font-size: 0.875rem;
+    line-height: 1.5;
+    color: #55595c;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    height: calc(3rem + 2px) !important;
+    border-radius:0;
+}
+.search-btn{
+    width: 100%;
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: capitalize;
+    height: calc(3rem + 2px) !important;
+    border-radius:0;
+}
+
+/* Social Media Buttons */
+ul.social-network {
+	list-style: none;
+	display: inline;
+	margin-left:0 !important;
+    padding-top: 15px;
+    padding-left: 5px;
+}
+ul.social-network li {
+	display: inline;
+	margin: 0 5px;
+}
+
+.social-network a.icoFacebook {
+	background-color:#3B5998;
+}
+.social-network a.icoTwitter {
+	background-color:#33ccff;
+}
+.social-network a.icoInstagram {
+	background-color:#2b5b83;
+}
+
+a.socialIcon:hover, .socialHoverClass {
+	color:#44BCDD;
+}
+
+.social-circle li a {
+	display:inline-block;
+	position:relative;
+	margin:0 auto 0 auto;
+	-moz-border-radius:50%;
+	-webkit-border-radius:50%;
+	border-radius:50%;
+	text-align:center;
+	width: 50px;
+	height: 50px;
+	font-size:20px;
+}
+.social-circle li i {
+	margin:0;
+	line-height:50px;
+	text-align: center;
+}
+
+.social-circle li a:hover i, .triggeredHover {
+	-moz-transform: rotate(360deg);
+	-webkit-transform: rotate(360deg);
+	-ms--transform: rotate(360deg);
+	transform: rotate(360deg);
+	-webkit-transition: all 0.2s;
+	-moz-transition: all 0.2s;
+	-o-transition: all 0.2s;
+	-ms-transition: all 0.2s;
+	transition: all 0.2s;
+}
+.social-circle i {
+	color: #fff;
+	-webkit-transition: all 0.8s;
+	-moz-transition: all 0.8s;
+	-o-transition: all 0.8s;
+	-ms-transition: all 0.8s;
+	transition: all 0.8s;
+}
+
+/* Sign In */
+.form-signin {
+    max-width: 330px;
+    width: 100%;
+    align-items: center;
+    margin: 0 auto;
+}
+
+/* User Listings */
+.social-link {
+    width: 30px;
+    height: 30px;
+    border: 1px solid #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    border-radius: 50%;
+    transition: all 0.3s;
+    font-size: 0.9rem;
+}
+
+.social-link:hover, .social-link:focus {
+    background: #ddd;
+    text-decoration: none;
+    color: #555;
+}
