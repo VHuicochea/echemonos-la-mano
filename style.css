@@ -156,6 +156,9 @@ ul.social-network li {
 .social-network a.icoInstagram {
 	background-color:#2b5b83;
 }
+.social-network a.icoPhone {
+	background-color:#3274b6de;
+}
 
 a.socialIcon:hover, .socialHoverClass {
 	color:#44BCDD;
